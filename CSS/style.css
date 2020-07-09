@@ -1,0 +1,651 @@
+* {
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Helvetica Neue, Helvetica, sans-serif;
+	margin: 0;
+}
+
+header{
+	background-color: black;
+	height: 100%;
+}
+
+#nav-container{
+	width:100%;
+	background-color: rgba(33, 33, 33, 0.7);
+	overflow: hidden;
+
+}
+
+.logo{
+	display: inline-block;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+
+.nav-bar{
+	background-color: #ffe218;
+	display: inline-block;
+	float: right;
+	margin: 1.8em 3em;
+	border-radius: 60px 15px;
+	padding-right: 40px;
+}
+
+ul{
+	list-style-type: none;
+	padding-top: 0px;
+	margin: 0px;
+}
+
+nav li{
+	display: inline;
+	padding: 25px;
+	float: right;
+}
+
+nav a{
+	text-decoration: none;
+	font-size: 25px;
+	color: #000000;
+}
+
+nav a:hover{
+	color: #95b9f0;
+}
+
+#header-image{
+	background-image: url("../Images/header-image.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 90vh;
+}
+
+#header-image h1{
+	font-family: Luminari, fantasy;
+	font-size: 3.5em;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+	margin: 0;
+	color: white;
+	text-align: center;
+	padding-top: 2.6em;
+
+}
+
+#header-image p{
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	margin-top: 10px;
+}
+
+
+
+#introduction {
+	overflow: hidden;
+	background-image: linear-gradient(to right, white, yellow);
+	width: 100%;
+	
+}
+
+#introduction img{
+	float: right;
+}
+
+.intro-mob-img{
+	height: 0;
+}
+
+#introduction h2{
+	
+	margin-top: 60px;
+	margin-bottom: 0px;
+	font-weight: 1000;
+	font-size: 30px;
+	width: 50%;
+	text-align: center;
+	margin-left: 50px;
+}
+
+#introduction p{
+	font-size: 19px;
+	line-height: 30px;
+	margin-left: 50px;
+}
+#who-is-bvb, #fans{
+	display: flex;
+	background-color: rgba(00,00,00, 0.5);
+	text-align: justify;
+}
+
+#who-is-bvb img, #fans img{
+  z-index: -1;
+}
+
+.column h2{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	font-size: 26px;
+	text-align: center;
+	color: white;
+	
+}
+
+.column p{
+	padding: 0em 2em;
+	font-size: 17px;
+	line-height: 30px;
+	color: white;
+	
+}
+
+button{
+	display: block;
+	background-color: yellow;
+	border: none;
+	color: black;
+	padding: 20px 40px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	cursor: pointer;
+	border-radius: 4px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+#img-row{
+	background-image: linear-gradient(to right, white, yellow);
+	
+}
+
+.img-wrapper-1{
+	padding: 80px 40px;
+}
+
+.img-wrapper-1 img:hover{
+	transition: 0.5s;
+	transform: scale(1.2);
+}
+
+/*	fanzone page styling starts here*/
+
+.img-area{
+	background-image: url("../Images/collage.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 82vh;
+	background-attachment: fixed;
+	
+}
+
+.flex-container{
+	display: flex;
+}
+
+.b-col{
+	width: 33.3%;
+}
+
+
+
+.block-1, .block-3{
+	background-color: #809353;
+}
+
+.block-2{
+	background-color: yellow;
+	color: black;
+}
+
+
+.flex-container p{
+	padding: 3em 2em;
+	margin: 0;
+	text-align: justify;
+	font-family: Abril Fatface;
+	font-style: italic;
+	font-size: 22px;
+}
+
+.flex-container span{
+	display: block;
+	text-align: right;
+	margin-top: 10px;
+	font-weight: 700;
+}
+
+.block-2 span, .block-3 span{
+	margin-top: 35px;
+}
+
+.heading{
+	text-align: center;
+}
+.heading h1{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: 30px;
+	font-weight: 900;
+}
+
+#img-gallery{
+		background-image: linear-gradient(to right, white, yellow);
+}
+	
+
+.tbl-container{
+	margin-right: 150px; 
+}
+
+table{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  	border-collapse: collapse;
+}
+
+th, td{
+	border: 1px solid #ddd;
+  	padding: 15px;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #ddd;}
+
+#q-container{
+	background-color: #809353;
+}
+#q-container img{
+	border-radius: 50%;
+	margin-top: 25px;
+	margin-left: 25px;
+}
+
+#q-container p{
+	margin: 70px;
+	font-family: cursive;
+	font-size: 20px;
+	color: white;
+}
+
+#abt-container{
+	background-image: url(../Images/marvin-ronsdorf-neIVhZEaBZE-unsplash.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 50vh;
+	background-position: 50%;
+}
+
+#abt-descp{
+	background-color: #b7b6b6;
+	height: 14.85em;
+}
+
+#abt-descp h1, #fans-container h2{
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0;
+	padding-top: 1.5em;
+}
+
+#abt-descp p, #fans-container p{
+	margin-left: 5em;
+	margin-right: 5em;
+	margin-bottom: 0px;
+	padding-bottom: 25px;
+	font-size: 19px;
+	line-height: 1.8em;
+}
+
+#img-gallery h1, #abt-descp h1{
+	text-align: center;
+	font-family: audiowide;
+	margin: 0;
+	padding: 25px 25px;
+}
+
+.img-wrapper{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.img-wrapper .single-img img:hover{
+	transition: 1s;
+	transform: scale(1.1);
+}
+
+.single-img{
+	padding: 0 20px 20px;
+}
+
+#fans-container{
+	background-color: #b9ad92; 
+}
+
+#abt-descp, #fans-container{
+	text-align: justify;
+}
+
+footer{
+	background-color: #212121;
+	color: white;
+}
+
+
+
+footer h4{
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: center;
+	padding-top: 20px; 
+}
+
+.social-media{
+	margin-left: auto;
+	margin-right: auto;
+	width: 6.7%;
+	padding-top: 7px;
+	align-content: center;
+	
+}
+
+footer p{
+	margin-bottom: 0;
+	text-align: center;
+	font-size: 10px;
+	padding-bottom: 10px;
+}
+
+/*media query starts here*/
+
+@media only screen and (max-width: 768px){
+	
+	.logo{
+		display: none;
+	}
+
+	nav-container{
+		width: 100%;	
+	}
+	
+	.nav-bar{
+		background-color: #dfc500;
+		background-image: url(../Images/logo.png);
+		background-repeat: no-repeat;
+		margin: 0;
+		border-radius: 0px;
+		padding-right: 0px;
+		width: inherit;
+/*		background-attachment: fixed;*/
+		background-position: center;
+	}
+	
+	nav{
+		margin: 0;
+	}
+	
+	nav ul{
+		padding: 0;
+		background-color: rgba(0,0,0, 0.7);
+	}
+	
+	nav li{
+		display: block;
+		float: none;
+		text-align: center;
+		
+	}
+	
+	nav a{
+		display: block;
+		color: white;
+		width: 85%;
+		margin-left: 25px;
+		
+	}
+	
+	nav li:hover{
+		background-color: rgba(255,255,255,0.5);
+	}
+	
+	#header-image{
+		background-position: 50% 50%;
+	}
+	
+	#header-image h1{
+		font-size: 2em;
+	}
+	
+	#header-image p{
+		font-size: 1.0em;
+	}
+	
+	
+
+	#introduction img{
+		display: none;
+	}
+
+	#introduction h2{
+	
+		margin-top: 20px;
+		margin-bottom: 10px;
+		font-size: 20px;
+		width: 100%;
+		text-align: center;
+		margin-left: 2px;
+	}
+	
+	#introduction p{
+		font-size: 15px;
+		line-height: 30px;
+		margin: 20px ;
+		text-align: justify;
+	}
+	
+	#who-is-bvb, #fans{
+		display: block;
+	}
+	
+	#who-is-bvb img, #fans img{
+		width: 100%; 
+		height: 50%;
+		
+	}
+	
+	.column{
+		padding-bottom: 25px;
+	}
+	
+	#fans .column{
+		background-color: #9c9db9;
+	}
+	
+	.column h2{
+		display: block;
+		padding-left: 0;
+		margin-top: 10px;
+		margin-right: 0;
+		font-size: 20px;
+		margin-left: 0;
+		padding-top: 10px;
+	
+	}
+	.column p{
+		padding: 0em 2em;
+		font-size: 14px;
+		line-height: 30px;
+		color: white;
+		text-align: justify;
+	
+	}
+	
+	#fans h2{
+		margin-top: 0;
+	}
+	
+	button{
+		padding: 10px 20px;
+		font-size: 14px;
+		
+	}
+	
+	#fans img{
+		float: none;
+	}
+	
+	#img-row{
+		background-image: linear-gradient(to bottom, white, yellow);
+		padding-bottom: 40px;
+	}
+	
+	#img-row img{
+		width: 100%;
+		height: auto;
+	}
+	
+	.img-wrapper-1{
+		padding-top: 40px;
+		padding-bottom: 0px;
+	}
+	
+	/* footer styling starts here */
+	
+	.footer-container h4{
+		display: block;
+	}
+	
+	.footer-col{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	
+	.footer-col p{
+		margin: 0px;
+		padding: 10px 0;
+		text-align: justify;
+		font-size: 14px;
+	}
+	
+	.footer-col img{
+		margin: 0;
+	}
+	
+	.social-media{
+		padding-left: 15px;
+		margin-top: 10px;
+	}
+	
+	/* fanzone page styling starts here */
+
+	.flex-container{
+		display: block;
+	}
+	
+	.b-col{
+		width: 100%;
+	}
+	
+	.flex-container{
+		display: block;
+		justify-content: center;
+	}
+	
+	
+	.tbl-container{
+		width: 100%;
+		margin-right: 10px;
+		margin-left: 10px;
+	}
+	table, thead, tbody, th, td, tr {
+		display: block;
+	}
+	
+	thead tr{
+		
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	
+	.formation img{
+		width: 100%;
+		height: auto;
+	}
+	
+	td{
+		border: none;
+		border-bottom: 1px solid #eee;
+		position: relative;
+		padding-left: 50%;
+	}
+	
+	td:before {
+		position: absolute;
+		top: 13px;
+		left: 6px;
+		width: 45%;
+		padding-right: 10px;
+		white-space: nowrap;
+	}
+	
+	td:nth-of-type(1):before { content: "Jersy Number"; }
+	td:nth-of-type(2):before { content: "Name"; }
+	td:nth-of-type(3):before { content: "Position"; }
+	td:nth-of-type(4):before { content: "Country"; }
+	
+	
+	#q-container img{
+		width: 90vw;
+		height: auto;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	
+	#q-container p{
+		margin: 20px;
+		text-align: justify;
+		
+	}
+	
+	#abt-descp{
+		width: 100%;
+		height: auto;
+		padding-bottom: 40px;
+	}
+	
+	#img-gallery img{
+		width: 100%;
+		height: auto;
+	}
+	
+	#abt-descp p, #fans-container p{
+		margin: 25px 25px 0 25px;
+	}
+	
+	footer img{
+		width: 100%;
+		height: auto;
+	}
+
+}
+
